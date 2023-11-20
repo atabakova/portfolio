@@ -1,4 +1,5 @@
 import './style.css';
+import CV from './cv_tabakova_anastasiia.pdf';
 
 export const Header = () => {
   return (
@@ -6,14 +7,14 @@ export const Header = () => {
       <div className="header__wrapper">
         <h1 className="header__title">
           <strong>
-            Hi, my name is <em>Anastasiya Tabakova</em>
+            Hi, my name is <em>Anastasiia Tabakova</em>
           </strong>
           <br /> full-stack developer
         </h1>
         <div className="header__text">
-          <p>with passion for learning and creating.</p>
+          <p>with love for development</p>
         </div>
-        <a href="#!" className="btn">
+        <a href={CV} className="btn" download="CV-PDF-document">
           Download CV
         </a>
       </div>
