@@ -10,14 +10,13 @@ const Home = () => {
             <li className="content-list__item">
               <h2 className="title-2">Frontend</h2>
               <p>
-                JavaScript, React, JSX, React Router, TypeScript, HTML/CSS,
-                BootStrap, GIT, REST API, OpenAPI, Swagger, Wordpress, Drupal,
-                VS Code
+                JavaScript, React, JSX, React Router, HTML/CSS, BootStrap, GIT,
+                REST API, OpenAPI, Swagger, Wordpress, Drupal, VS Code, jQuery
               </p>
             </li>
             <li className="content-list__item">
               <h2 className="title-2">Backend</h2>
-              <p>PHP, SQL, MySQL, PHPMyAdmin, Laravel</p>
+              <p>PHP, SQL, MySQL, Laravel, PHPMyAdmin</p>
             </li>
           </ul>
         </div>
