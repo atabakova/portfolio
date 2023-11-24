@@ -11,34 +11,8 @@ import project15 from './../img/projects/15.jpg';
 import project15Big from './../img/projects/15-big.jpg';
 
 const petprojects = [];
-petprojects[6] = {
-  title: 'Yoda Game',
-  skills: 'JavaScript, HTML, CSS',
-  img: project06,
-  imgBig: project06Big,
-  gitHubLink: '',
-  time: 'pet-project',
-  webLink: 'https://atabakova.github.io/yodagame2/',
-};
-petprojects[7] = {
-  title: 'Todo App',
-  skills: 'REACT JS, HTML, CSS',
-  img: project07,
-  imgBig: project07Big,
-  gitHubLink: '',
-  time: 'pet-project',
-  webLink: 'https://atabakova.github.io/todoapp/',
-};
+
 petprojects[8] = {
-  title: 'Invite App',
-  skills: 'REACT JS, HTML, CSS',
-  img: project13,
-  imgBig: project13Big,
-  gitHubLink: '',
-  time: 'pet-project',
-  webLink: 'https://atabakova.github.io/invite-project/',
-};
-petprojects[9] = {
   title: 'Picture gallery',
   skills: 'REACT JS, work with MockAPI, pagination, HTML, CSS',
   img: project15,
@@ -47,5 +21,32 @@ petprojects[9] = {
   time: 'pet-project',
   webLink: 'https://atabakova.github.io/travel-collection/',
   mainskills: 'React, API, pagination',
+};
+petprojects[9] = {
+  title: 'Todo App',
+  skills: 'REACT JS, HTML, CSS',
+  img: project07,
+  imgBig: project07Big,
+  gitHubLink: '',
+  time: 'pet-project',
+  webLink: 'https://atabakova.github.io/todoapp/',
+};
+petprojects[10] = {
+  title: 'Invite App',
+  skills: 'REACT JS, HTML, CSS',
+  img: project13,
+  imgBig: project13Big,
+  gitHubLink: '',
+  time: 'pet-project',
+  webLink: 'https://atabakova.github.io/invite-project/',
+};
+petprojects[11] = {
+  title: 'Yoda Game (only Desktop)',
+  skills: 'JavaScript, HTML, CSS',
+  img: project06,
+  imgBig: project06Big,
+  gitHubLink: '',
+  time: 'pet-project',
+  webLink: 'https://atabakova.github.io/yodagame2/',
 };
 export default petprojects;

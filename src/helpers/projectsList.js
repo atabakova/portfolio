@@ -16,7 +16,26 @@ import project12Big from './../img/projects/12-big.jpg';
 import project14 from './../img/projects/14.jpg';
 import project14Big from './../img/projects/14-big.jpg';
 
+import project16 from './../img/projects/16.jpg';
+import project16Big from './../img/projects/16-big.jpg';
+
+import project17 from './../img/projects/17.jpg';
+import project17Big from './../img/projects/17-big.jpg';
+
 const projects = [
+  {
+    title: 'Order management system + Analytic system (CRM)',
+    skills: 'PHP, SQL, MySQL, HTML, CSS, phpMyAdmin, Bootstrap',
+    img: project16,
+    imgBig: project16Big,
+    gitHubLink: '',
+    webLink: 'https://crmdemo.atabakovaprojects.site/',
+    time: '2018',
+    description: 'Full-time job.',
+    responsibilities:
+      'creating database, website development, creating analitics, website administration',
+    mainskills: 'PHP, MySQL, Bootstrap, SQL, HTML/CSS',
+  },
   {
     title: 'Robot-psihologist & Robot-doctor',
     skills:
@@ -30,6 +49,19 @@ const projects = [
     responsibilities:
       'website development, website administration, working in the team with doctors and psihologists',
     mainskills: 'PHP, MySQL, Bootstrap, Payment gateway, API',
+  },
+  {
+    title: 'Laravel Cleaning company website',
+    skills: 'PHP, Laravel, SQL, MySQL, phpMyAdmin, Bootstrap, HTML, CSS',
+    img: project17,
+    imgBig: project17Big,
+    gitHubLink: 'https://github.com/atabakova/servicelisbon2',
+    webLink: 'https://atabakovaprojects.site/',
+    time: '2023',
+    description: 'Freelance project',
+    responsibilities:
+      'creating application with Laravel, deployment of application',
+    mainskills: 'PHP, Laravel, MySQL, Bootstrap',
   },
   {
     title: 'Quiz',

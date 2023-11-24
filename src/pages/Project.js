@@ -9,7 +9,7 @@ function Project() {
   //const project = projects[id];
 
   let project = projects[id];
-  if (id >= '6') {
+  if (id >= '8') {
     project = petprojects[id];
   }
 
