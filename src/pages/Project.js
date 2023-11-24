@@ -9,10 +9,9 @@ function Project() {
   //const project = projects[id];
 
   let project = projects[id];
-  if (id >= '8') {
-    project = petprojects[id];
-  }
+  if (id >= '8') project = petprojects[id];
 
+  console.log(petprojects);
   return (
     <main className="section">
       <div className="container">
