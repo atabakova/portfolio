@@ -17,6 +17,7 @@ function Projects() {
                   title={project.title}
                   img={project.img}
                   index={index}
+                  type={project.type}
                 />
               );
             })}
@@ -30,6 +31,7 @@ function Projects() {
                   title={project.title}
                   img={project.img}
                   index={index}
+                  type={project.type}
                 />
               );
             })}

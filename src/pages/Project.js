@@ -8,10 +8,13 @@ function Project() {
   const { id } = useParams();
   //const project = projects[id];
 
-  let project = projects[id];
-  if (id >= 8) project = petprojects[id];
+  //let project = projects[id];
+  //if (project.type !== 'com') project = petprojects[id];
 
-  console.log(petprojects);
+  let project = projects[id] || petprojects[id];
+  if (project && project.type !== 'com') {
+    project = petprojects[id];
+  }
   return (
     <main className="section">
       <div className="container">

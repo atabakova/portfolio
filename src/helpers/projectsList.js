@@ -35,6 +35,7 @@ const projects = [
     responsibilities:
       'creating database, website development, creating analitics, website administration',
     mainskills: 'PHP, MySQL, Bootstrap, SQL, HTML/CSS',
+    type: 'com',
   },
   {
     title: 'Robot-psihologist & Robot-doctor',
@@ -49,6 +50,7 @@ const projects = [
     responsibilities:
       'website development, website administration, working in the team with doctors and psihologists',
     mainskills: 'PHP, MySQL, Bootstrap, Payment gateway, API',
+    type: 'com',
   },
   {
     title: 'Laravel Cleaning company website',
@@ -62,6 +64,7 @@ const projects = [
     responsibilities:
       'creating application with Laravel, deployment of application',
     mainskills: 'PHP, Laravel, MySQL, Bootstrap',
+    type: 'com',
   },
   {
     title: 'Quiz',
@@ -75,6 +78,7 @@ const projects = [
     responsibilities:
       'Development of a test structure to determine clients English language proficiency level. Development of a quiz to attract potential clients for learning English.',
     mainskills: 'React, copywriting',
+    type: 'com',
   },
 
   {
@@ -89,6 +93,7 @@ const projects = [
     responsibilities:
       'development of product cards, design of product cards, photo processing, design, SEO optimization',
     mainskills: 'CMS, HTML, CSS, Photoshop, SEO',
+    type: 'com',
   },
   {
     title: 'Web site for factory',
@@ -102,6 +107,7 @@ const projects = [
     description: 'Part time job',
     responsibilities: '',
     mainskills: 'CMS, HTML, CSS,JavaScript, PHP',
+    type: 'com',
   },
 
   {
@@ -117,6 +123,7 @@ const projects = [
     responsibilities:
       'website development, website administration, website adjustments, running Google and Yandex Direct advertising campaign, SEO website promotion, development of a database for storing order information',
     mainskills: 'CSS,JavaScript, JQuery',
+    type: 'com',
   },
   {
     title: 'Website for building company',
@@ -131,6 +138,7 @@ const projects = [
     responsibilities:
       'website development, website administration, website adjustments, running Google and Yandex Direct advertising campaign, SEO website promotion, development of a database for storing order information',
     mainskills: 'PHP, MySQL, JavaScript, JQuery',
+    type: 'com',
   },
 ];
 
