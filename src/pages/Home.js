@@ -8,16 +8,17 @@ const Home = () => {
         <div className="container">
           <ul className="content-list">
             <li className="content-list__item">
-              <h2 className="title-2">Frontend</h2>
-              <p>
-                JavaScript, React, Redux, TypeScript, JSX, React Router,
-                HTML/CSS, BootStrap, GIT, REST API, OpenAPI, Swagger, Wordpress,
-                Drupal, OpenCard, VS Code, jQuery
-              </p>
+              <h2 className="title-2">Programming Languages:</h2>
+              <p>Main: PHP, JavaScript</p>
+              <p>Others: Go (Junior Level), JSX, SQL, HTML/CSS</p>
             </li>
             <li className="content-list__item">
-              <h2 className="title-2">Backend</h2>
-              <p>PHP, SQL, MySQL, Laravel, PHPMyAdmin, GIT, Docker, SSH, FTP</p>
+              <h2 className="title-2">Frameworks and Technologies:</h2>
+              <p>
+                Web Development: ReactJS, Redux, Laravel, Yii (v1, v2),
+                Wordpress, Drupal
+              </p>
+              <p>UI Frameworks: Bootstrap, jQuery</p>
             </li>
           </ul>
         </div>
