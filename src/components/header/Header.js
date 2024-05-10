@@ -1,5 +1,5 @@
 import './style.css';
-import CV from './cv_tabakova_anastasiia.pdf';
+import CV from './CV_PHP_developer_Full-stack_developer_Tabakova_Anastasiia.pdf';
 
 export const Header = () => {
   return (
