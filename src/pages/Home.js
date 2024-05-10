@@ -20,6 +20,24 @@ const Home = () => {
               </p>
               <p>UI Frameworks: Bootstrap, jQuery</p>
             </li>
+            <li className="content-list__item">
+              <h2 className="title-2">Database Management Systems (DBMS):</h2>
+              <p>
+                MySQL, ElasticSearch, OpenSearch, Redis, MongoDB, Clickhouse,
+                PostgreSQL
+              </p>
+            </li>
+            <li className="content-list__item">
+              <h2 className="title-2">DevOps Technologies:</h2>
+              <p>
+                GIT, Docker, Kubernetes, DevSpace, RabbitMQ, Kafka, CI/CD, CRON,
+                Mailhog
+              </p>
+            </li>
+            <li className="content-list__item">
+              <h2 className="title-2">Testing Tools:</h2>
+              <p>Codeception, PHPUnit (Unit Tests), XDebug</p>
+            </li>
           </ul>
         </div>
       </main>
